@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="Projetoakakdja"
+run/main_scene="res://Area2D.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -20,6 +21,13 @@ Serial="*res://Serial.gd"
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+Esquerda={
+"deadzone": 0.5,
+"events": [  ]
+}
 
 [physics]
 
